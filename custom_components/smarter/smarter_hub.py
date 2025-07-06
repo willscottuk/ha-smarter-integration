@@ -5,10 +5,10 @@ from typing import Any
 
 from homeassistant.core import HomeAssistant
 from homeassistant.exceptions import HomeAssistantError
-from smarter_client.domain.models import LoginSession, User
-from smarter_client.domain.smarter_client import SmarterClient
-from smarter_client.managed_devices import load_from_network
-from smarter_client.managed_devices.base import BaseDevice
+from .smarter_client.domain.models import LoginSession, User
+from .smarter_client.domain.smarter_client import SmarterClient
+from .smarter_client.managed_devices import load_from_network
+from .smarter_client.managed_devices.base import BaseDevice
 
 from custom_components.smarter.const import DOMAIN, LOGGER
 

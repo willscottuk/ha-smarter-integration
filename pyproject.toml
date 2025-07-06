@@ -1,5 +1,5 @@
 [project]
-dependencies = ["smarter-client>=0.3.0-dev.3", "homeassistant>=2024.11.3"]
+dependencies = ["homeassistant>=2024.11.3"]
 requires-python = "~=3.12.4"
 readme = "README.md"
 license = { text = "MIT" }
@@ -25,6 +25,10 @@ testing = [
     "pytest-asyncio>=0.24.0",
 ]
 linting = ["pre-commit>=3.8.0", "ruff>=0.6.5"]
+
+[tool.pdm.dependencies]
+"smarter-client" = { git = "https://github.com/willscottuk/smarter-kettle-client.git", ref = "dev" }
+homeassistant = ">=2024.9.2"
 
 [tool.pdm]
 distribution = false

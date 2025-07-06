@@ -7,7 +7,7 @@ from typing import Any
 
 from homeassistant.helpers.typing import VolSchemaType
 
-# from smarter_client.managed_devices.base import BaseDevice
+# from .smarter_client.managed_devices.base import BaseDevice
 
 
 @dataclass(frozen=True, kw_only=True)

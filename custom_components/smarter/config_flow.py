@@ -14,8 +14,8 @@ from homeassistant.const import CONF_PASSWORD, CONF_USERNAME
 
 # from homeassistant.core import callback
 from homeassistant.helpers.selector import SelectOptionDict, SelectSelector, SelectSelectorConfig, SelectSelectorMode
-from smarter_client.domain.models import LoginSession, User
-from smarter_client.managed_devices.base import BaseDevice
+from .smarter_client.domain.models import LoginSession, User
+from .smarter_client.managed_devices.base import BaseDevice
 
 from custom_components.smarter.smarter_hub import CannotConnect, InvalidAuth, SmarterHub
 

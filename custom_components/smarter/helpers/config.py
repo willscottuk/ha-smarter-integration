@@ -12,7 +12,7 @@ from homeassistant.core import HassJobType, HomeAssistant, ServiceCall, Supports
 from homeassistant.helpers import service
 from homeassistant.helpers.entity import Entity
 from homeassistant.helpers.entity_platform import AddEntitiesCallback
-from smarter_client.managed_devices.base import BaseDevice
+from ..smarter_client.managed_devices.base import BaseDevice
 
 from ..const import (
     DOMAIN,

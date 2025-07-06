@@ -13,7 +13,7 @@ from homeassistant.config_entries import ConfigEntry
 from homeassistant.const import Platform
 from homeassistant.core import HomeAssistant
 from homeassistant.helpers.entity_platform import AddEntitiesCallback
-from smarter_client.managed_devices.base import BaseDevice
+from .smarter_client.managed_devices.base import BaseDevice
 
 from custom_components.smarter.helpers.device_config import SmarterEntityConfig
 

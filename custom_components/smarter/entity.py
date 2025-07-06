@@ -10,7 +10,7 @@ from homeassistant.core import callback
 from homeassistant.helpers.device_registry import DeviceInfo
 from homeassistant.helpers.entity import Entity, EntityDescription
 from propcache import cached_property
-from smarter_client.managed_devices.base import BaseDevice
+from .smarter_client.managed_devices.base import BaseDevice
 
 from custom_components.smarter.helpers.device_config import SmarterEntityConfig
 

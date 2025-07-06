@@ -19,7 +19,7 @@ from homeassistant.const import EntityCategory, Platform, UnitOfTemperature
 from homeassistant.helpers.entity import EntityDescription
 from homeassistant.util import slugify
 from homeassistant.util.yaml import load_yaml
-from smarter_client.managed_devices.base import BaseDevice
+from ..smarter_client.managed_devices.base import BaseDevice
 
 import custom_components.smarter.devices as device_config_module
 from custom_components.smarter.const import SERVICE_SCHEMA_EMPTY, SmarterSensorEntityFeature
